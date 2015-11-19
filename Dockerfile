@@ -15,6 +15,7 @@ RUN npm install
 COPY app.js /usr/src/
 COPY test /usr/src/test
 COPY script /usr/src/script
+COPY README.md /
 
 # user to non-privileged user
 USER nobody
